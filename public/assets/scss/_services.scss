@@ -51,6 +51,8 @@
         }
     }
     &__icon{
+        max-width: 44px;
+        min-height: 48px;
         min-height: 45px;
         & img{
             backface-visibility: hidden;
@@ -137,6 +139,7 @@
 
         }
         & .nav-item{
+
             margin-right: 80px;
             @media #{$lg}{
                 margin-right: 30px;
@@ -156,6 +159,7 @@
             font-size: 18px;
             color: $black;
             font-weight: 500;
+            padding-right: 1rem;
             & i{
                 display: inline-block;
                 width: 60px;
@@ -169,8 +173,14 @@
                 @include border-radius(50%);
             }
             &.active{
+                border: 1px solid gainsboro;
+                border-radius: 3rem;
                 background: transparent;
                 color: $blue-2;
+            }
+            &:hover{
+                background-color: aliceblue;
+                border-radius: 3rem;
             }
         }
     }

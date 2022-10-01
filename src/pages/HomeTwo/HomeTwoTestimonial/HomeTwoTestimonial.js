@@ -46,7 +46,7 @@ const HomeTwoTestimonial = () => {
                                     <p className="white-color">{testimonial.data}</p>
                                     <div className="testimonial__content d-flex align-items-center">
                                        <div className="quote mr-20">
-                                          <img src="assets/img/icon/testimonial/quote.png" alt="quote" />
+                                          <img src="/assets/img/icon/testimonial/quote.png" alt="quote" />
                                        </div>
                                        <div className="testimonial__info">
                                           <h4 className="white-color">{testimonial.name}</h4>
@@ -64,7 +64,7 @@ const HomeTwoTestimonial = () => {
                   </div>
                   <div className="col-xl-7 col-lg-6">
                      <div className="testimonial__thumb m-img text-end pt-120 " >
-                        <img src="assets/img/testimonial/testimonial.svg" alt="Testimonial" />
+                        <img src="/assets/img/testimonial/testimonial.svg" alt="Testimonial" />
                      </div>
                   </div>
                </div>

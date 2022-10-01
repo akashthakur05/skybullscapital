@@ -28,14 +28,14 @@ const BlogsArea = () => {
 
                         <div className="blog__quote mb-50 p-relative white-bg fix" >
                            <div className="blog__quote-line">
-                              <img className="line-1" src="assets/img/icon/blog/line-1.png" alt="" />
-                              <img className="line-2" src="assets/img/icon/blog/line-2.png" alt="" />
+                              <img className="line-1" src="/assets/img/icon/blog/line-1.png" alt="" />
+                              <img className="line-2" src="/assets/img/icon/blog/line-2.png" alt="" />
                            </div>
                            <div className="quote mb-10">
-                              <img src="assets/img/icon/blog/quote-1.png" alt="" />
+                              <img src="/assets/img/icon/blog/quote-1.png" alt="" />
                            </div>
                            <div className="quote-2 p-absolute">
-                              <img src="assets/img/icon/blog/quote-2.png" alt="" />
+                              <img src="/assets/img/icon/blog/quote-2.png" alt="" />
                            </div>
                            <blockquote>
                               <p>Tosser argy-bargy mush loo at public school Elizabeth up the duff buggered chinwag on your
@@ -50,8 +50,8 @@ const BlogsArea = () => {
                         <div className="blog__quote blog__quote-2 mb-50 p-relative white-bg fix"
                         >
                            <div className="blog__quote-line">
-                              <img className="line-3" src="assets/img/icon/blog/line-3.png" alt="" />
-                              <img className="line-4" src="assets/img/icon/blog/line-4.png" alt="" />
+                              <img className="line-3" src="/assets/img/icon/blog/line-3.png" alt="" />
+                              <img className="line-4" src="/assets/img/icon/blog/line-4.png" alt="" />
                            </div>
                            <div className="blog__link-icon">
                               <i className="icon_link_alt icon_1"></i>

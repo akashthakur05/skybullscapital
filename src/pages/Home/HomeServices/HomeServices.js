@@ -9,8 +9,8 @@ const HomeServices = () => {
                <div className="row">
                   <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
                      <div className="section__title section__title-3 text-center mb-90 wow fadeInUp" data-wow-delay=".2s">
-                        <span>Our Services</span>
-                        <h2>Provide awesome customer service with our tools.</h2>
+                        <span>Features</span>
+                        <h2>Provide awesome customer service to boost you growth.</h2>
                      </div>
                   </div>
                </div>

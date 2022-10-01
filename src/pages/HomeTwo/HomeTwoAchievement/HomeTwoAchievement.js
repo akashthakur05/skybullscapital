@@ -10,33 +10,33 @@ const HomeTwoAchievement = () => {
                   <div className="col-xl-5 col-lg-6 col-md-6">
                      <div className="achievement__content">
                         <div className="section__title section__title-3 mb-20">
-                           <span>Achievement</span>
-                           <h2>We are certified financial experts</h2>
+                           <span>Our Team</span>
+                           <h2>We are certified experts best in their field</h2>
                         </div>
-                        <p>He nicked it fantastic well on your bike mate have it a I bum bag I twit easy peasy that, chimney pot amongst are you taking the piss daft show off show off pick.</p>
+                        <p>Our team is comprised of industry experts who are passionate about their work, and have an extensive background in a wide variety of applications.</p>
                         <div className="achievement__wrapper d-flex d-md-block d-lg-flex justify-content-between mb-35 wow fadeInUp" data-wow-delay=".8s">
-                           <div className="achievement__item mb-30">
-                              <img src="assets/img/icon/achievement/achievement-1.png" alt="achievement"/>
+                           <div className="achievement__item  mb-30">
+                              <img style={{height:'46px', width:'46px'}} src="/assets/img/icon/achievement/achievement-3.svg"alt="achievement"/>
                                  <h3>Acquisitions Finance Consulting</h3>
                            </div>
-                           <div className="achievement__item mb-30">
-                              <img src="assets/img/icon/achievement/achievement-2.png" alt="achievement"/>
+                           <div className="achievement__item  mb-30">
+                              <img  style={{height:'46px', width:'46px'}} src="/assets/img/icon/achievement/achievement-2.svg" alt="achievement"/>
                                  <h3>Private Placement Consulting</h3>
                            </div>
                         </div>
-                        <Link to="/about" className="z-btn">Learn More</Link>
+                        <Link to="/services" className="z-btn">Explore</Link>
                      </div>
                   </div>
                   <div className="col-xl-7 col-lg-6 col-md-6">
                      <div className="row">
                         <div className="col-xl-7 col-sm-6">
                            <div className="achievement__thumb m-img pl-30 text-right">
-                              <img src="assets/img/achievement/achievement-1.jpg" alt="achievement-1"/>
+                              <img src="/assets/img/achievement/achievement-1.svg" alt="achievement-1"/>
                            </div>
                         </div>
                         <div className="col-xl-5 col-sm-6 d-md-none d-lg-none d-xl-block">
                            <div className="achievement__thumb w-img">
-                              <img src="assets/img/achievement/achievement-2.jpg" alt=""/>
+                              <img src="/assets/img/achievement/achievement-2.svg" alt=""/>
                            </div>
                         </div>
                      </div>

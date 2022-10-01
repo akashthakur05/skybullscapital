@@ -15,7 +15,7 @@ const StyleFiveHeader = () => {
          <header>
             <div className="header__area p-relative header__transparent">
                <div className="header__shape p-absolute">
-                  <img src="assets/img/icon/slider/03/icon-5.png" alt=""/>
+                  <img src="/assets/img/icon/slider/03/icon-5.png" alt=""/>
                </div>
                <div id="header__sticky" className={stickyMenu ? "sticky header__bottom header__bottom-2 header__style-4 header__style-5" : "header__bottom header__bottom-2 header__style-4 header__style-5"}>
                   <div className="container">
@@ -24,7 +24,7 @@ const StyleFiveHeader = () => {
                            <div className="header__style-3-left d-flex align-items-center">
                               <div className="logo-3 mr-50">
                                  <NavLink to="/">
-                                    <img src="assets/img/logo/logo-gradient.png" alt="logo"/>
+                                    <img src="/assets/img/logo/logo-gradient.png" alt="logo"/>
                                  </NavLink>
                               </div>
                               <div className="main-menu main-menu-3 header_style_nav_five">

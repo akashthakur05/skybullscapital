@@ -11,13 +11,13 @@ const PortfolioDetailsArea = () => {
                   <div className="col-xl-6 col-lg-6 col-md-6">
                      <div className="portfolio__img-wrapper">
                         <div className="portfolio__img mb-30 w-img" >
-                           <img src="assets/img/portfolio/details/port-01.jpg" alt=""/>
+                           <img src="/assets/img/portfolio/details/port-01.jpg" alt=""/>
                         </div>
                         <div className="portfolio__img mb-30 w-img" >
-                           <img src="assets/img/portfolio/details/port-02.jpg" alt=""/>
+                           <img src="/assets/img/portfolio/details/port-02.jpg" alt=""/>
                         </div>
                         <div className="portfolio__img mb-30 w-img" >
-                           <img src="assets/img/portfolio/details/port-03.jpg" alt=""/>
+                           <img src="/assets/img/portfolio/details/port-03.jpg" alt=""/>
                         </div>
                      </div>
                   </div>

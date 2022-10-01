@@ -10,12 +10,12 @@ const TeamDetailsArea = () => {
             <div className="container">
                <div className="team__details-inner p-relative white-bg">
                   <div className="team__details-shape p-absolute">
-                     <img src="assets/img/icon/team/shape-1.png" alt=""/>
+                     <img src="/assets/img/icon/team/shape-1.png" alt=""/>
                   </div>
                   <div className="row">
                      <div className="col-xl-6 col-lg-6">
                         <div className="team__details-img w-img mr-70">
-                           <img src="assets/img/team/details/team-01.jpg" alt=""/>
+                           <img src="/assets/img/team/details/team-01.jpg" alt=""/>
                         </div>
                      </div>
                      <div className="col-xl-6 col-lg-6">

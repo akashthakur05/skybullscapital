@@ -4,6 +4,15 @@
 
 .faq{
     &__area{}
+    &__content{
+        &__block{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 4rem 0rem;
+        }
+    }
     &__wrapper{
         & .card{
             margin-bottom: 20px;

@@ -26,7 +26,7 @@ const BlogLeftSideBar = () => {
                                 <ul>
                                     <li className="d-flex mb-20">
                                         <div className="rc-thumb mr-15">
-                                            <Link to="/blogDetails"><img src="assets/img/blog/rc/rc-1.jpg"
+                                            <Link to="/blogDetails"><img src="/assets/img/blog/rc/rc-1.jpg"
                                                 alt="rc-post" /></Link>
                                         </div>
                                         <div className="rc-text">
@@ -37,7 +37,7 @@ const BlogLeftSideBar = () => {
                                     </li>
                                     <li className="d-flex mb-20">
                                         <div className="rc-thumb mr-15">
-                                            <Link to="/blogDetails"><img src="assets/img/blog/rc/rc-2.jpg"
+                                            <Link to="/blogDetails"><img src="/assets/img/blog/rc/rc-2.jpg"
                                                 alt="rc-post" /></Link>
                                         </div>
                                         <div className="rc-text">
@@ -48,7 +48,7 @@ const BlogLeftSideBar = () => {
                                     </li>
                                     <li className="d-flex mb-20">
                                         <div className="rc-thumb mr-15">
-                                            <Link to="/blogDetails"><img src="assets/img/blog/rc/rc-3.jpg"
+                                            <Link to="/blogDetails"><img src="/assets/img/blog/rc/rc-3.jpg"
                                                 alt="rc-post" /></Link>
                                         </div>
                                         <div className="rc-text">

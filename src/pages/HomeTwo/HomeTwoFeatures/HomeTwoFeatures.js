@@ -15,11 +15,11 @@ const HomeTwoFeatures = () => {
                   <div className="col-xl-5 col-lg-6">
                      <div className="features__content-left">
                         <div className="section__title section__title-h2 mb-25">
-                           <span>Design Accordlogy</span>
-                           <h2>Enrich <br/> your design</h2>
+                           <span>Startup Special</span>  <span className=' badge bg-danger text-white'>New</span>
+                           <h2>Boost <br/> your Startup Growth</h2>
                         </div>
-                        <p>Do one plastered chinwag only a quid squiffy bugger all mate, the little rotter horse play.</p>
-                        <Link to="/about" className="z-btn">What we do<i><CgArrowLongRight/></i></Link>
+                        <p>We support the Startup India initiative that aims to accelerate entrepreneurship in the country and create startups.</p>
+                        <Link to="/service-list/startup-registration" className="z-btn">What we do<i><CgArrowLongRight/></i></Link>
                      </div>
                   </div>
                   <div className="col-xl-6 offset-xl-1 col-lg-6">
@@ -27,15 +27,15 @@ const HomeTwoFeatures = () => {
                         <div className="row">
                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 
-                              <HomeTwoSingleFeature icon={<FaLightbulb />} title="Share Knowledge" />
-                              <HomeTwoSingleFeature icon={<IoDocumentTextOutline />} title="Amazing Works" />
+                              <HomeTwoSingleFeature icon={<FaLightbulb />} title="Registration" description='Eu elit veniam commodo officia amet incididunt reprehenderit.' />
+                              <HomeTwoSingleFeature icon={<IoDocumentTextOutline />} title="Compliance" description='Est ipsum aute sunt culpa incididunt aliqua est qui.' />
 
                            </div>
 
                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
 
-                              <HomeTwoSingleFeature icon={<FaRibbon />} title="Meet new Friends" />
-                              <HomeTwoSingleFeature icon={<BiLock />} title="Portfolio Expert" />
+                              <HomeTwoSingleFeature icon={<FaRibbon />} title="Digital Presence" description='Reprehenderit in velit fugiat occaecat aute sit non anim pariatur duis enim adipisicing dolore. ' />
+                              <HomeTwoSingleFeature icon={<BiLock />} title="Filing" description='Veniam culpa in non enim excepteur ut commodo duis pariatur pariatur labore et ullamco.' />
 
                            </div>
                         </div>

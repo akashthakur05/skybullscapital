@@ -2,9 +2,7 @@ import React from "react";
 import { CgArrowLongRight } from "react-icons/cg";
 import { FaCheck, FaLightbulb } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import HomeThreeSingleService from "../../../components/HomeThreeSingleService/HomeThreeSingleService";
 import HomeTwoSingleFeature from "./../../../components/HomeTwoSingleFeature/HomeTwoSingleFeature";
-import { IoDocumentTextOutline } from "react-icons/io5";
 
 const HomeThreeServices = () => {
   return (
@@ -28,6 +26,9 @@ const HomeThreeServices = () => {
                 icon={<FaLightbulb />}
                 title="GST
                 Registration and Fillings"
+                description="GSTR-1 to 9 "
+                url="service-list/gst-services"
+               
               />
             </div>
             <div className="col-xl-3 col-lg-6">
@@ -35,6 +36,8 @@ const HomeThreeServices = () => {
                 icon={<FaLightbulb />}
                 title="Income Tax
               File Your Return"
+              description="No hassle. 100% digital."
+              url="service-list/tax-services"
               />
             </div>
 
@@ -42,13 +45,17 @@ const HomeThreeServices = () => {
               <HomeTwoSingleFeature
                 icon={<FaLightbulb />}
                 title="Startup
-                Registration & Startup Support"
+                Registration"
+                description="Easy Registration with our Experts"
+                url="service-list/startup-services"
               />
             </div>
             <div className="col-xl-3 col-lg-6">
               <HomeTwoSingleFeature
                 icon={<FaLightbulb />}
-                title="Technical Support and Assistance"
+                title="Compliance & Anuual Cmopliance"
+                description="24x7 Support Available"
+                url="service-list/technical-services"
               />
             </div>
           </div>
@@ -56,7 +63,7 @@ const HomeThreeServices = () => {
             <div className="row">
               <div className="col-xl-7 col-lg-6">
                 <div className="about__thumb-2 about__thumb_customsize p-relative m-img">
-                  <img src="assets/img/about/about-2.svg" className="w-100 h-100" alt="" />
+                  <img src="/assets/img/about/about-2.svg" className="w-100 h-100" alt="" />
                 </div>
               </div>
               <div className="col-xl-5 col-lg-6">

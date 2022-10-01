@@ -15,7 +15,7 @@ const BlogFooter = () => {
                               <div className="footer__widget-title mb-30">
                                  <div className="logo">
                                     <Link to="/home">
-                                       <img src="assets/img/logo/logo.png" alt=""/>
+                                       <img src="/assets/img/logo/logo.png" alt=""/>
                                     </Link>
                                  </div>
                               </div>

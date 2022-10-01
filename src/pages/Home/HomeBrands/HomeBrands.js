@@ -40,10 +40,10 @@ const HomeBrands = () => {
       <>
          <section className="brand__area p-relative pt-160 pb-50">
             <div className="brand__shape">
-               <img className="square" src="assets/img/icon/brand/square.png" alt="" />
-               <img className="circle" src="assets/img/icon/brand/circle.png" alt="" />
-               <img className="circle-2" src="assets/img/icon/brand/circle-2.png" alt="" />
-               <img className="triangle" src="assets/img/icon/brand/trianlge.png" alt="" />
+               <img className="square" src="/assets/img/icon/brand/square.png" alt="" />
+               <img className="circle" src="/assets/img/icon/brand/circle.png" alt="" />
+               <img className="circle-2" src="/assets/img/icon/brand/circle-2.png" alt="" />
+               <img className="triangle" src="/assets/img/icon/brand/trianlge.png" alt="" />
             </div>
             <div className="container p-relative">
                <div className="row">

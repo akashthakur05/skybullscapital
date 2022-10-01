@@ -15,7 +15,7 @@ const HomeTwoFooter = () => {
                               <div className="footer__widget-title mb-30">
                                  <div className="logo">
                                     <Link to="/">
-                                       <img src="assets/img/logo/logo-gradient.png" alt=""/>
+                                       <img src="/assets/img/logo/logo-gradient.png" alt=""/>
                                     </Link>
                                  </div>
                               </div>

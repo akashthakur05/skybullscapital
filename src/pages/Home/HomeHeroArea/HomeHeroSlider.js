@@ -41,10 +41,10 @@ const HomeHeroArea = () => {
                   homeSliderData.map((slider,index) => {
                      return <div key={index} className={`single-slider slider__height d-flex align-items-center ${slider.bgImg}`}>
                         <div className="slider__shape">
-                           <img className="shape triangle" src="assets/img/icon/slider/triangle.png" alt="triangle" />
-                           <img className="shape dotted-square" src="assets/img/icon/slider/dotted-square.png" alt="dotted-square" />
-                           <img className="shape solid-square" src="assets/img/icon/slider/solid-square.png" alt="solid-square" />
-                           <img className="shape circle" src="assets/img/icon/slider/circle.png" alt="circle" />
+                           <img className="shape triangle" src="/assets/img/icon/slider/triangle.png" alt="triangle" />
+                           <img className="shape dotted-square" src="/assets/img/icon/slider/dotted-square.png" alt="dotted-square" />
+                           <img className="shape solid-square" src="/assets/img/icon/slider/solid-square.png" alt="solid-square" />
+                           <img className="shape circle" src="/assets/img/icon/slider/circle.png" alt="circle" />
                         </div>
                         <div className="container h1_slider_wrapper">
                            <div className="row">

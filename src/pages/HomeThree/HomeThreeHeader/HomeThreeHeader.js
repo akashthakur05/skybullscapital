@@ -14,17 +14,17 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get Started", btn_class = "z-btn
     <>
       <header>
         <div className="header__area p-relative header__transparent">
-          <div className="header__shape p-absolute">
-            <img src="assets/img/icon/slider/03/icon-5.png" alt="" />
+          <div className="header__shape icon__small p-absolute">
+            <img src="/assets/img/icon/slider/03/icon-6.svg" className='w-100 h-100' alt="" />
           </div>
           <div id="header__sticky" className={stickyMenu ? `sticky header__bottom header__bottom-2 ${h4class && h4class}`
           :`header__bottom header__bottom-2 ${h4class && h4class}`}>
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
-                  <div className="logo-3">
+                  <div className="logo-3 logo__small">
                     <NavLink to="/">
-                      <img src="assets/img/logo/logo-gradient.png" alt="logo" />
+                      <img src="/assets/img/logo/logo-1.png" alt="logo"  className='w-100 h-100'/>
                     </NavLink>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ const HomeThreeHeader = ({ h4class, btn_text = "Get Started", btn_class = "z-btn
                             <NavLink to="/services">Services</NavLink>
                           </li>
                           <li>
-                            <NavLink to="/portfolio">Branch</NavLink>
+                            <NavLink to="/branch">Branch</NavLink>
                           </li>
                           {/* <li>
                             <NavLink to="/blogs">Blog</NavLink>

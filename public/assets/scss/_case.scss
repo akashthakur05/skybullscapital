@@ -11,6 +11,7 @@
         }
         &:hover{
             & .case__thumb{
+
                 &::after{
                     opacity: 0;
                 }
@@ -36,6 +37,8 @@
         }
     }
     &__thumb{
+        width: 306px;
+        height: 440px;
         &::after{
             position: absolute;
             content: '';

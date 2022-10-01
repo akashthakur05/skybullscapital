@@ -59,12 +59,12 @@ const StyleHeaderSix = () => {
                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                         <div className="logo">
                            <NavLink to="/">
-                              <img src="assets/img/logo/logo-gradient.png" alt="logo" />
+                              <img src="/assets/img/logo/logo-gradient.png" alt="logo" />
                            </NavLink>
                         </div>
                         <div className="logo-gradient">
                            <NavLink to="/">
-                              <img src="assets/img/logo/logo-gradient.png" alt="logo" />
+                              <img src="/assets/img/logo/logo-gradient.png" alt="logo" />
                            </NavLink>
                         </div>
                      </div>

@@ -16,14 +16,14 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className="blog__quote mb-40 p-relative white-bg fix">
                            <div className="blog__quote-line">
-                              <img className="line-1" src="assets/img/icon/blog/line-1.png" alt="" />
-                              <img className="line-2" src="assets/img/icon/blog/line-2.png" alt="" />
+                              <img className="line-1" src="/assets/img/icon/blog/line-1.png" alt="" />
+                              <img className="line-2" src="/assets/img/icon/blog/line-2.png" alt="" />
                            </div>
                            <div className="quote mb-10">
-                              <img src="assets/img/icon/blog/quote-1.png" alt="" />
+                              <img src="/assets/img/icon/blog/quote-1.png" alt="" />
                            </div>
                            <div className="quote-2 p-absolute">
-                              <img src="assets/img/icon/blog/quote-2.png" alt="" />
+                              <img src="/assets/img/icon/blog/quote-2.png" alt="" />
                            </div>
                            <blockquote>
                               <p>Tosser argy-bargy mush loo at public school Elizabeth up the duff buggered chinwag on your bike mate don't get shirty with me super, Jeffrey bobby Richard cheesed off spend a penny a load of old tosh blag horse.</p>
@@ -34,7 +34,7 @@ const BlogDetailsArea = () => {
                            <p>Cheeky bugger cracking goal starkers lemon squeezy lost the plot pardon me no biggie the BBC burke gosh boot so I said wellies, zonked a load of old tosh bodge barmy skive off he legged it morish spend a penny my good sir wind up hunky-dory. Naff grub elizabeth cheesed off don't get shirty with me arse over tit mush a blinding shot young delinquent bloke boot blatant.</p>
                         </div>
                         <div className="blog__details-thumb w-img mb-45">
-                           <img src="assets/img/blog/details/b-d-1.jpg" alt="" />
+                           <img src="/assets/img/blog/details/b-d-1.jpg" alt="" />
                         </div>
                         <div className="blog__text mb-40">
                            <h3>Zibber is the only theme you will ever need</h3>
@@ -76,7 +76,7 @@ const BlogDetailsArea = () => {
                         </div>
                         <div className="blog__author mb-95 d-sm-flex">
                            <div className="blog__author-img mr-30">
-                              <img src="assets/img/blog/author/author-1.jpg" alt="" />
+                              <img src="/assets/img/blog/author/author-1.jpg" alt="" />
                            </div>
                            <div className="blog__author-content">
                               <h5>Sophie Ianiro</h5>
@@ -93,7 +93,7 @@ const BlogDetailsArea = () => {
                                  <li>
                                     <div className="comments-box">
                                        <div className="comments-avatar">
-                                          <img src="assets/img/blog/comment/comments-1.png" alt="" />
+                                          <img src="/assets/img/blog/comment/comments-1.png" alt="" />
                                        </div>
                                        <div className="comments-text">
                                           <div className="avatar-name">
@@ -108,7 +108,7 @@ const BlogDetailsArea = () => {
                                  <li className="children">
                                     <div className="comments-box">
                                        <div className="comments-avatar">
-                                          <img src="assets/img/blog/comment/comments-rep-1.png" alt="" />
+                                          <img src="/assets/img/blog/comment/comments-rep-1.png" alt="" />
                                        </div>
                                        <div className="comments-text">
                                           <div className="avatar-name">
@@ -123,7 +123,7 @@ const BlogDetailsArea = () => {
                                  <li className="children">
                                     <div className="comments-box">
                                        <div className="comments-avatar">
-                                          <img src="assets/img/blog/comment/comments-rep-2.png" alt="" />
+                                          <img src="/assets/img/blog/comment/comments-rep-2.png" alt="" />
                                        </div>
                                        <div className="comments-text">
                                           <div className="avatar-name">

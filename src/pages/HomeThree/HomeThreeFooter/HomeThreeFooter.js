@@ -25,7 +25,7 @@ const HomeThreeFooter = () => {
                     <div className="footer__widget-title mb-30">
                       <div className="logo">
                         <a href="#">
-                          <img src="assets/img/logo/logo-black.png" alt="" />
+                          <img src="/assets/img/logo/logo-black.png" alt="" />
                         </a>
                       </div>
                     </div>
@@ -38,7 +38,7 @@ const HomeThreeFooter = () => {
                       </p>
                       <div className="footer__img ">
                         <img
-                          src="assets/img/footer/footer-img-1.svg"
+                          src="/assets/img/footer/footer-img-1.svg"
                           alt="SKy Bull Capitals"
                           className="w-100 h-100"
                         />
@@ -191,6 +191,20 @@ const HomeThreeFooter = () => {
                             </div>
                           </li>
                         </ul>
+                        <div className="footer__widget-title mb-30 d-flex">
+                      <div className="logo logo__medium">
+                        <a href="#">
+                          <img src="/assets/img/logo/logo-inverted.svg" className="w-100 h-100" alt="Logo Inverted" />
+                        
+                        </a>
+                      </div>
+                      <div className="logo logo__medium d-inline">
+                        <a href="#">
+                          <img src="/assets/img/logo/logo-1.png" className="w-100 h-100" alt="Logo Inverted" />
+                        
+                        </a>
+                      </div>
+                    </div>
                       </div>
                       <div className="footer__social theme-social">
                         <ul>
@@ -240,7 +254,7 @@ const HomeThreeFooter = () => {
                     <div className="footer__copyright-text text-center">
                       <p>
                         Copyright © 2022 All Rights Reserved{" "}
-                        <Link to="/home">Akash Singh</Link>
+                        <Link to="https://indepthcoder.com">Akash Singh</Link>
                       </p>
                     </div>
                   </div>

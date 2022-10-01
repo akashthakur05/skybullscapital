@@ -26,7 +26,7 @@ const HomeTwoSingleCase = ({ galleryItem, index, filterGalleryItems}) => {
             />
          )}
 
-         <div className={img === "assets/img/case/case-3.jpg" ? "col-xl-6 col-lg-6 col-md-6" : "col-xl-3 col-lg-3 col-md-6 grid-item"}>
+         <div className={img === "/assets/img/case/case-3.jpg" ? "col-xl-6 col-lg-6 col-md-6" : "col-xl-3 col-lg-3 col-md-6 grid-item"}>
             <div className="case__item mb-30 fix">
                <div className="case__thumb w-img p-relative">
                   <img src={img} alt="case" />

@@ -27,17 +27,17 @@ const HomeThreeProjects = () => {
       {
          id: 1,
          title: <h3><Link to="/portfolioDetails">Organizational <br /> design for business</Link></h3>,
-         img:"assets/img/project/project-1.png",
+         img:"/assets/img/project/project-1.png",
       },
       {
          id: 2,
          title: <h3><Link to="/portfolioDetails">Solve customer <br/> problems in a flash</Link></h3>,
-         img:"assets/img/project/project-2.png",
+         img:"/assets/img/project/project-2.png",
       },
       {
          id: 3,
          title: <h3><Link to="/portfolioDetails">Organizational <br /> design for business</Link></h3>,
-         img: "assets/img/project/project-1.png",
+         img: "/assets/img/project/project-1.png",
       },
    ]
    return (

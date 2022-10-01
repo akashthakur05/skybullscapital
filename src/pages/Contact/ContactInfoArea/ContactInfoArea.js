@@ -6,8 +6,8 @@ const ContactInfoArea = () => {
       <>
          <section className="contact__help p-relative pt-115 pb-150">
             <div className="contact__shape">
-               <img className="dot" src="assets/img/icon/contact/dot.png" alt="" />
-               <img className="shape" src="assets/img/icon/contact/shape.png" alt="" />
+               <img className="dot" src="/assets/img/icon/contact/dot.png" alt="" />
+               <img className="shape" src="/assets/img/icon/contact/shape.png" alt="" />
             </div>
             <div className="container">
                <div className="row">
@@ -20,8 +20,8 @@ const ContactInfoArea = () => {
                </div>
                <div className="row p-relative">
 
-                  <SIngleContactInfo image="headset" title="Customer Support" btn_text="Visit Support Forum" />
-                  <SIngleContactInfo image="msg" title="Any Questions" btn_text="Contact Support" />
+                  <SIngleContactInfo image="chat" title="Live Chat" description='Need Urjent Esclation' btn_text="Live Chat"  link=""/>
+                  <SIngleContactInfo image="faq" title="Any Questions" btn_text="Visit FAQ" description='For any general query policy and help.'  url="/faq"/>
 
                </div>
             </div>

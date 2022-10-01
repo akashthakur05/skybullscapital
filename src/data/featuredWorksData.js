@@ -1,90 +1,164 @@
+import { convertToSlug } from "./../utils/slug";
+var incrementalIndex = 1;
+const startupData = [
+  "Proprietorship",
+  "Partnership",
+  "One Person Company",
+  "Limited Liability Partnership",
+  "Private Limited Company",
+  "Startup India Registration",
+  "Indian Subsidiary",
+  "Nidhi Company",
+  "Section 8 Company",
+  "USA Company Registration",
+  "Digital Signature",
+  "Udyam Registration",
+  "Import Export Code",
+  "FSSAI Registration",
+  "Professional Tax",
+  "LLP Name Availability",
+];
+const IPR_DATA = [
+  "Trademark Registration",
+  "Trademark Objection",
+  "Trademark Opposition",
+  "Trademark Renewal",
+  "Copyright Registration",
+  "Design Registration",
+  "Provisional Patent",
+  "Patent Registration",
+];
 
+const GST_DATA = [
+  "GST Registration",
+  "GST Return Filing",
+  "GST LUT Filing",
+  "GST Registration Cancellation",
+  "GST Annual Return",
+  "GST Invoicing",
+  "GST eInvoicing",
+  "eWay Bill",
+  "Input Tax Credit",
+  "GST Software for Accountants",
+];
+const ITR = [
+  "Personal Tax Filing",
+  "Business Tax Filing",
+  "Tax Notice",
+  "TDS Filing",
+  "ITR-1 Return",
+  "ITR-2 Return",
+  "ITR-3 Return",
+  "ITR-4 Return",
+  "ITR-5 Return",
+  "ITR-6 Return",
+  "ITR-7 Return",
+  "Form 16",
+];
+const ACCOUNTING = [
+  "Proprietorship",
+  "Partnership",
+  "Company",
+  "LLP Compliance",
+  "Payroll",
+  "PF Registration",
+  "PF Return Filing",
+  "ESI Registration",
+  "Add Directors",
+  "Remove Directors",
+  "Share Transfer",
+  "DIR-3 KYC",
+  "Registered Office Change",
+  "Increase Authorized Capital",
+  "Winding Up of Company",
+  "Winding Up of LLP",
+];
+const serviceGenerator = (
+  type = "startup",
+  img = "/assets/img/case/case-1.jpg",
+  title,
+  subtitle,
+  category = "REGISTRATION"
+) => {
+  return {
+    id: incrementalIndex++,
+    img,
+    title,
+    subtitle,
+    category,
+    slug: convertToSlug(type + " " + category + " " + title),
+  };
+};
+const categories = [
+  "STARTUP",
+  "INTELLECTUAL_PROPERTY",
+  "INCOME_TAX_RETURN",
+  "GST",
+  "COMPLIANCE",
+  "TAX_NOTICE",
+];
 const featuredWorksData = [
-    {
-        id:1,
-        img:'assets/img/case/case-1.jpg',
-        title:'Business Growth',
-        subtitle:'Consulting',
-        category:'coaching',
-    },
-    {
-        id:2,
-        img:'assets/img/case/case-2.jpg',
-        title:'Business Growth',
-        subtitle:'Consulting',
-        category:'facilitation',
-    },
-    {
-        id:3,
-        img:'assets/img/case/case-3.jpg',
-        title:'Leadership & Change',
-        subtitle:'Strategy',
-        category: 'coaching',
-    },
-    {
-        id:4,
-        img:'assets/img/case/case-4.jpg',
-        title:'Human Resources',
-        subtitle:'Coaching',
-        category: 'consulting',
-    },
-    {
-        id:5,
-        img:'assets/img/case/case-5.jpg',
-        title:'Digitalisation & IT',
-        subtitle:'IT Solution',
-        category: 'consulting',
-    },
-    {
-        id:6,
-        img:'assets/img/case/case-6.jpg',
-        title:'Data Analytics',
-        subtitle:'Analytics',
-        category:'consulting',
-    },
-    {
-        id:7,
-        img:'assets/img/case/case-7.jpg',
-        title:'Virtual Facilitation',
-        subtitle:'Coaching',
-        category:'facilitation',
-    },
-    {
-        id: 8,
-        img:'assets/img/case/case-1.jpg',
-        title:'Business Growth',
-        subtitle:'Consulting',
-        category:'consulting',
-    },
-    {
-        id: 9,
-        img: 'assets/img/case/case-3.jpg',
-        title: 'Leadership & Change',
-        subtitle: 'Strategy',
-        category: 'consulting',
-    },
-    {
-        id: 10,
-        img: 'assets/img/case/case-3.jpg',
-        title: 'Leadership & Change',
-        subtitle: 'Strategy',
-        category: 'strategy',
-    },
-    {
-        id: 11,
-        img: 'assets/img/case/case-4.jpg',
-        title: 'Human Resources',
-        subtitle: 'Coaching',
-        category: 'strategy',
-    },
-    {
-        id: 12,
-        img: 'assets/img/case/case-7.jpg',
-        title: 'Virtual Facilitation',
-        subtitle: 'Coaching',
-        category: 'strategy',
-    },
+  ...startupData.map((data) =>
+    serviceGenerator(
+      "startup",
+      "assets/img/case/case-1.jpg",
+      data,
+      "Aliqua eu est et do veniam consectetur et velit est id amet adipisicing sit.",
+      "STARTUP"
+    )
+  ),
+  ...IPR_DATA.map((data) =>
+    serviceGenerator(
+      "startup",
+      "assets/img/case/case-1.jpg",
+      data,
+      "Aliqua eu est et do veniam consectetur et velit est id amet adipisicing sit.",
 
-]
+      "INTELLECTUAL_PROPERTY"
+    )
+  ),
+  ...ITR.map((data) =>
+    serviceGenerator(
+      "startup",
+      "assets/img/case/case-1.jpg",
+      data,
+      "Aliqua eu est et do veniam consectetur et velit est id amet adipisicing sit.",
 
-export default featuredWorksData;
+      "INCOME_TAX_RETURN"
+    )
+  ),
+  ...GST_DATA.map((data) =>
+    serviceGenerator(
+      "startup",
+      "assets/img/case/case-1.jpg",
+      data,
+      "Aliqua eu est et do veniam consectetur et velit est id amet adipisicing sit.",
+
+      "GST"
+    )
+  ),
+  ...ACCOUNTING.map((data) =>
+    serviceGenerator(
+      "startup",
+      "assets/img/case/case-1.jpg",
+      data,
+      "Aliqua eu est et do veniam consectetur et velit est id amet adipisicing sit.",
+
+      "COMPLIANCE"
+    )
+  ),
+
+  {
+    id: incrementalIndex++,
+    img: "assets/img/case/case-1.jpg",
+    title: "Income Tax Notice",
+    slug: convertToSlug("Income Tax Notice Response"),
+    subtitle:
+      "Aliqua eu est et do veniam consectetur et velit est id amet adipisicing sit.",
+    category: "TAX_NOTICE",
+    trending:true
+  },
+];
+
+
+export { featuredWorksData, categories };
