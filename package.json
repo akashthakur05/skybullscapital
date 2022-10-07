@@ -1,11 +1,12 @@
 {
-  "name": "zibber",
-  "version": "0.1.0",
+  "name": "skybullscapitals",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^5.5.0",
+    "@tawk.to/tawk-messenger-react": "^2.0.1",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -40,13 +41,13 @@
     "postcss-normalize": "^10.0.1",
     "postcss-preset-env": "^7.0.1",
     "prompts": "^2.4.2",
-    "react": "^17.0.2",
+    "react": "latest",
     "react-app-polyfill": "^3.0.0",
     "react-bootstrap": "^2.1.2",
     "react-collapsible": "^2.8.4",
     "react-countup": "^6.1.1",
     "react-dev-utils": "^12.0.0",
-    "react-dom": "^17.0.2",
+    "react-dom": "latest",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.3.1",
     "react-image-lightbox": "^5.1.4",
@@ -65,6 +66,8 @@
     "slick-carousel": "^1.8.1",
     "source-map-loader": "^3.0.0",
     "style-loader": "^3.3.1",
+    "styled-components": "^5.3.6",
+    "styled-system": "^5.1.5",
     "tailwindcss": "^3.0.2",
     "terser-webpack-plugin": "^5.2.5",
     "web-vitals": "^2.1.4",
@@ -74,11 +77,14 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
     "postbuild": "react-snap"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   },
   "eslintConfig": {
     "extends": [
@@ -117,6 +123,7 @@
     ]
   },
   "devDependencies": {
+    "react-app-rewired": "^2.2.1",
     "react-snap": "^1.23.0"
   }
 }

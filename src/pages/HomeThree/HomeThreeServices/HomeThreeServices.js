@@ -27,7 +27,7 @@ const HomeThreeServices = () => {
                 title="GST
                 Registration and Fillings"
                 description="GSTR-1 to 9 "
-                url="service-list/gst-services"
+                url="service-list/gst-services-and-intellectual-property"
                
               />
             </div>
@@ -37,7 +37,7 @@ const HomeThreeServices = () => {
                 title="Income Tax
               File Your Return"
               description="No hassle. 100% digital."
-              url="service-list/tax-services"
+              url="service-list/all-tax-and-income-tax-services-and-compliance"
               />
             </div>
 
@@ -55,7 +55,7 @@ const HomeThreeServices = () => {
                 icon={<FaLightbulb />}
                 title="Compliance & Anuual Cmopliance"
                 description="24x7 Support Available"
-                url="service-list/technical-services"
+                url="service-list/other-technical-services-package"
               />
             </div>
           </div>

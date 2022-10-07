@@ -22,7 +22,7 @@ const StyleFiveHeader = () => {
                      <div className="row align-items-center">
                         <div className="col-xl-11 col-lg-10 col-md-6 col-sm-6 col-6">
                            <div className="header__style-3-left d-flex align-items-center">
-                              <div className="logo-3 mr-50">
+                              <div className="mr-50">
                                  <NavLink to="/">
                                     <img src="/assets/img/logo/logo-gradient.png" alt="logo"/>
                                  </NavLink>
