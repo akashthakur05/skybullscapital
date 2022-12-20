@@ -1,15 +1,15 @@
 import React from "react";
 import PageHelmet from "./../../components/shared/PageHelmet";
-import HomeThreeHeader from "./../HomeThree/HomeThreeHeader/HomeThreeHeader";
 import CommonPageHeader from "./../../components/CommonPageHeader/CommonPageHeader";
 import CommonCtaArea from "./../../components/CommonCtaArea/CommonCtaArea";
-import HomeThreeFooter from "./../HomeThree/HomeThreeFooter/HomeThreeFooter";
+import HomeHeader from './../Main/HomeHeader/HomeHeader';
+import HomeFooter from './../Main/HomeFooter/HomeFooter';
 
 const Search = () => {
   return (
     <>
       <PageHelmet pageTitle="Search Services Page" />
-      <HomeThreeHeader />
+      <HomeHeader />
       <CommonPageHeader title="Search" subtitle="Services" />
       <div class="blog-area pt-120 pb-90">
         <div class="container">
@@ -57,7 +57,7 @@ const Search = () => {
         data={{ link2: "/faq", text2: "FAQ", link1: "", text1: "" }}
       />
 
-      <HomeThreeFooter />
+      <HomeFooter/>
     </>
   );
 };

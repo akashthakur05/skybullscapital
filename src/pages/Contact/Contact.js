@@ -1,8 +1,8 @@
 import React from 'react';
 import CommonPageHeader from '../../components/CommonPageHeader/CommonPageHeader';
 import PageHelmet from '../../components/shared/PageHelmet';
-import HomeThreeFooter from '../HomeThree/HomeThreeFooter/HomeThreeFooter';
-import HomeThreeHeader from '../HomeThree/HomeThreeHeader/HomeThreeHeader';
+import HomeFooter from '../Main/HomeFooter/HomeFooter';
+import HomeHeader from '../Main/HomeHeader/HomeHeader';
 import ContactArea from './ContactArea/ContactArea';
 import ContactInfoArea from './ContactInfoArea/ContactInfoArea';
 
@@ -11,11 +11,11 @@ const Contact = () => {
       <>
          <PageHelmet pageTitle="Contact Page" />
 
-         <HomeThreeHeader/>
+         <HomeHeader/>
          <CommonPageHeader title="Contact Us" subtitle="Contact" />
          <ContactInfoArea/>
          <ContactArea/>
-         <HomeThreeFooter/>
+         <HomeFooter/>
       </>
    );
 };

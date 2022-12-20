@@ -1,14 +1,13 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import PageHelmet from "./../../components/shared/PageHelmet";
-import HomeThreeHeader from "./../HomeThree/HomeThreeHeader/HomeThreeHeader";
 import CommonPageHeader from "./../../components/CommonPageHeader/CommonPageHeader";
 import CommonCtaArea from "./../../components/CommonCtaArea/CommonCtaArea";
-import HomeThreeFooter from "./../HomeThree/HomeThreeFooter/HomeThreeFooter";
 import { capitalize } from './../../utils/capitalize';
-import HomeAbout from './../Home/HomeAbout/HomeAbout';
 import ServiceListFeature from './../../components/ServiceListFeature/ServiceListFeature';
 import { serviceListData } from './../../data/serviceList';
+import HomeHeader from "../Main/HomeHeader/HomeHeader";
+import HomeFooter from "../Main/HomeFooter/HomeFooter";
 const ServiceList = (props) => {
   let { slug } = useParams();
   let navigate = useNavigate()
@@ -20,14 +19,13 @@ const ServiceList = (props) => {
   return (
     <>
       <PageHelmet pageTitle={capitalize(unslug)} />
-      <HomeThreeHeader />
+      <HomeHeader />
       <CommonPageHeader title={data.header} subtitle="Service" />
       <ServiceListFeature/>
       <CommonCtaArea
         data={{ link2: "/services", text2: "Explore More", link1: "", text1: "" }}
       />
-
-      <HomeThreeFooter />
+      <HomeFooter />
     </>
   );
 };

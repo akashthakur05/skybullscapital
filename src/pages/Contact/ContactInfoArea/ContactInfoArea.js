@@ -1,5 +1,5 @@
 import React from 'react';
-import SIngleContactInfo from '../../../components/SIngleContactInfo/SIngleContactInfo';
+import SingleContactInfo from '../../../components/SingleContactInfo/SingleContactInfo';
 
 const ContactInfoArea = () => {
    return (
@@ -20,8 +20,8 @@ const ContactInfoArea = () => {
                </div>
                <div className="row p-relative">
 
-                  <SIngleContactInfo image="chat" title="Live Chat" description='Need Urjent Esclation' btn_text="Live Chat"  link=""/>
-                  <SIngleContactInfo image="faq" title="Any Questions" btn_text="Visit FAQ" description='For any general query policy and help.'  url="/faq"/>
+                  <SingleContactInfo image="chat" title="Live Chat" description='Need Urjent Esclation' btn_text="Live Chat"  link=""/>
+                  <SingleContactInfo image="faq" title="Any Questions" btn_text="Visit FAQ" description='For any general query policy and help.'  url="/faq"/>
 
                </div>
             </div>

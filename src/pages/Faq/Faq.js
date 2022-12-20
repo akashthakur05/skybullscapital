@@ -1,15 +1,15 @@
 import React from "react";
 import PageHelmet from "./../../components/shared/PageHelmet";
-import HomeThreeHeader from "./../HomeThree/HomeThreeHeader/HomeThreeHeader";
 import CommonPageHeader from "./../../components/CommonPageHeader/CommonPageHeader";
 import CommonCtaArea from "./../../components/CommonCtaArea/CommonCtaArea";
-import HomeThreeFooter from "./../HomeThree/HomeThreeFooter/HomeThreeFooter";
 import Question from "./../../components/FAQ/Question";
+import HomeFooter from "../Main/HomeFooter/HomeFooter";
+import HomeHeader from "../Main/HomeHeader/HomeHeader";
 function Faq(props) {
   return (
     <>
       <PageHelmet pageTitle="FAQ Page" />
-      <HomeThreeHeader />
+      <HomeHeader />
       <CommonPageHeader title="Frequntly Asked Questions" subtitle="Services" />
       <div className="container my-2">
         <div className="row">
@@ -33,7 +33,7 @@ function Faq(props) {
         data={{ link2: "/faq", text2: "FAQ", link1: "", text1: "" }}
       />
 
-      <HomeThreeFooter />
+      <HomeFooter />
     </>
   );
 }

@@ -1,10 +1,32 @@
-import React from "react";
+import React, {useState} from "react";
+import { toast } from "react-hot-toast";
 import { FiDownload } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import { generateKey } from "./../../../utils/randomKey";
 
 const ServicesDetailsArea = ({ data }) => {
   let { categories, messageContext, content, description } = data;
+  let [status , setStatus] = useState(false)
+  // Logic To Post Data
+  const performPost = fetch("http://15.11.55.3:8040/Device/Movies", {
+    method: "post",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      "context": messageContext
+  })
+  })
+  const handleInquiryForm = (e) => {
+    e.preventDefault();
+    setStatus(true);
+    toast.promise(
+      performPost,
+      {
+        loading: "Loading",
+        success: "Got the data",
+        error: "Error While Sending The Data Kindly Connect : +91 9838111040",
+      }
+    );
+  };
   return (
     <>
       {data && (
@@ -37,12 +59,16 @@ const ServicesDetailsArea = ({ data }) => {
                     </div>
                     <div className="services__widget-content">
                       <div className="services__form">
-                        <form>
-                          <input type="text" placeholder="Name" />
-                          <input type="email" placeholder="Email" />
-                          <input type="tel" placeholder="Phone" />
-                          <input type="hidden" value={messageContext} name="context" />
-                          <button className="z-btn z-btn-3 w-100">
+                        <form onSubmit={handleInquiryForm}>
+                          <input type="text" placeholder="Name"  required/>
+                          <input type="email" placeholder="Email" required />
+                          <input type="tel" placeholder="Phone" required/>
+                          <input
+                            type="hidden"
+                            value={messageContext}
+                            name="context"
+                          />
+                          <button disabled={status} type="submit" className="z-btn z-btn-3 w-100">
                             Connect
                           </button>
                         </form>

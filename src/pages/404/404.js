@@ -1,8 +1,9 @@
 import React from 'react';
 import CommonPageHeader from '../../components/CommonPageHeader/CommonPageHeader';
 import PageHelmet from '../../components/shared/PageHelmet';
-import HomeThreeFooter from '../HomeThree/HomeThreeFooter/HomeThreeFooter';
-import HomeThreeHeader from '../HomeThree/HomeThreeHeader/HomeThreeHeader';
+import HomeHeader from './../Main/HomeHeader/HomeHeader';
+import HomeFooter from './../Main/HomeFooter/HomeFooter';
+
 
 
 const PageNotFound = () => {
@@ -10,11 +11,11 @@ const PageNotFound = () => {
       <>
          <PageHelmet pageTitle="404 - Page Not Found " />
 
-         <HomeThreeHeader/>
+         <HomeHeader/>
          <CommonPageHeader title="404 - Not Found" subtitle="404 - Not Found" />
          {/* <ContactInfoArea/> */}
          {/* <ContactArea/>0 */}
-         <HomeThreeFooter/>
+         <HomeFooter/>
       </>
    );
 };

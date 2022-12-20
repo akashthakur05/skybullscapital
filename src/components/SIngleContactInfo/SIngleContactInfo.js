@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const SIngleContactInfo = ({image,title,btn_text, description="", url=""}) => {
+const SingleContactInfo = ({image,title,btn_text, description="", url=""}) => {
    return (
       <>
          <div className="col-xl-5 col-lg-6 col-md-6 offset-xl-1">
@@ -20,4 +20,4 @@ const SIngleContactInfo = ({image,title,btn_text, description="", url=""}) => {
    );
 };
 
-export default SIngleContactInfo;
+export default SingleContactInfo;
